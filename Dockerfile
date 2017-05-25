@@ -11,7 +11,7 @@ ENV SOLDER_VERSION 0.7.3.1
 ENV SOLDER_TARBALL https://github.com/hecksadecimal/TechnicSolder/archive/v${SOLDER_VERSION}.tar.gz
 
 RUN apk update && \
-    apk add --update \
+    apk add --force --update \
         php5 \
         php5-common \
         php5-cli \
