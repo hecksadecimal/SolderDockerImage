@@ -45,7 +45,6 @@ RUN apk update && \
     php5-iconv \
     php5-imap \
     php5-soap \
-    php5-memcache \
     php5-xsl \
     php5-ldap \
     php5-bcmath \
